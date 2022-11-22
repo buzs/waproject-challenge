@@ -12,7 +12,7 @@ datasource db {
 
 model Film {
   id          Int      @id @default(autoincrement())
-  title       String
+  title       String   @unique
   banner      String
   description String
   director    String

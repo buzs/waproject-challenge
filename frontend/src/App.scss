@@ -39,3 +39,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.films-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.film-card {
+  max-width: 400px;
+}
+
+.film-card img {
+  width: 100%;
+}
+
+.film-card h3 {
+  margin: 0;
+  text-align: left;
+}
